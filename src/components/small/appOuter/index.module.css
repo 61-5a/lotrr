@@ -1,0 +1,21 @@
+.app_outer {
+    width: 90%;
+    border: 1px solid #000;
+    margin: 15px 5%;
+}
+.app_outer h2 {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+.table_outer {
+    margin: 15px 25px;
+    width: calc(100% - 50px);
+}
+.table_outer tr th {
+    text-align: left;
+}
+.innerpage_center {
+    text-align: center;
+}

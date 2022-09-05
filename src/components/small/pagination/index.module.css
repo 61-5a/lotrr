@@ -1,0 +1,22 @@
+.page_bottom {
+    padding: 20px 0;
+    border-top: 1px solid #000;
+}
+.page_bottom .pagination {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+.page_bottom .pagination button {
+    margin: 0 10px;
+}
+.page_bottom .page {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+.page_bottom .limit {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.search_outer_one {
+    padding: 25px 0 10px;
+}
+.search_outer_one > span {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.search_outer_one > span > span {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.search_outer_two {
+    padding: 10px 0 25px;
+    border-bottom: 1px solid #000;
+}
+.search_outer_two > span {
+    display: inline-block;
+    text-align: center;
+}
+.search_outer_two > span.one {
+    width: 60%;
+}
+.search_outer_two > span.two {
+    width: 25%;
+}
+.search_outer_two > span.three {
+    width: 15%;
+}
+.search_outer_two > span > span {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.search_outer_two button {
+
+}

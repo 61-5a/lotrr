@@ -1,0 +1,20 @@
+.single_heading {
+    text-align: center;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #000;
+    border-bottom: none;
+    margin: 15px 5% 0;
+}
+.single_outer {
+    width: 90%;
+    border: 1px solid #000;
+    margin: 0px 5% 15px;
+    padding: 15px 25px;
+}
+.single_table_outer {
+    width: 100%;
+}
+.single_outer tr td {
+    padding: 5px 0;
+}
