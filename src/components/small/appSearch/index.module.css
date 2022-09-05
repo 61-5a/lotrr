@@ -35,6 +35,24 @@
     font-size: 15px;
     line-height: 30px;
 }
-.search_outer_two button {
-
+@media only screen and (max-width: 800px) {
+    .search_outer_one > span {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .search_outer_two > span.one {
+        width: 97%;
+        margin: 5px 0;
+    }
+    .search_outer_two > span.two {
+        width: 50%;
+        margin: 5px 0;
+    }
+    .search_outer_two > span.three {
+        width: 50%;
+        margin: 5px 0;
+    }
+    .search_outer_two {
+        text-align: center;
+    }
 }

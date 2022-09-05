@@ -1,7 +1,11 @@
 # The Lord of the Rings
-by 61-5a
+The Lord of the Rings in React by 61-5a
 
-# Getting Started with Create React App
+API Documentation : https://the-one-api.dev/documentation
+
+Target details added to the pdf on root.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

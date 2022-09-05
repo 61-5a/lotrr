@@ -20,3 +20,22 @@
     width: 20%;
     text-align: center;
 }
+@media only screen and (max-width: 1145px) {
+    .page_bottom .pagination button {
+        margin: 0 3px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .page_bottom .pagination button {
+        margin: 1px;
+    }
+    .page_bottom .pagination {
+        width: 62%;
+    }
+    .page_bottom .page {
+        width: 15%;
+    }
+    .page_bottom .limit {
+        width: 20%;
+    }
+}
