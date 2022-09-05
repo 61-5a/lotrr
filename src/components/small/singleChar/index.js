@@ -1,12 +1,11 @@
 import React from "react"
-import {Link} from 'react-router-dom';
 import styles from './index.module.css';
 
 function SingleChar ({ singleCharacters }) {
     return (
         singleCharacters.map((char,index) => {
             return ( 
-                <>
+                <div key="1001">
                     <div className={styles.single_heading}>
                         <h2>Characters » { char.name }</h2>
                     </div>
@@ -19,7 +18,7 @@ function SingleChar ({ singleCharacters }) {
                                 </tr>
                                 <tr>
                                     <td>WikiURL</td>
-                                    <td><Link to={ char.wikiUrl }>{ char.wikiUrl }</Link></td>
+                                    <td><a href={ char.wikiUrl }>{ char.wikiUrl }</a></td>
                                 </tr>
                                 <tr>
                                     <td>Race</td>
@@ -56,7 +55,7 @@ function SingleChar ({ singleCharacters }) {
                             </tbody>
                         </table>
                     </div>
-                </>
+                </div>
             )})
     )
 }

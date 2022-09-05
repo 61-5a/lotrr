@@ -23,7 +23,7 @@ function InnerPage () {
         };
         fetchSingleData();
     }, []);
-    console.log(singleCharacters)
+    // console.log(singleCharacters)
     return (
         <>
             <div className={styles.innerpage_outer}>
